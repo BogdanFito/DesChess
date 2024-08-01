@@ -70,3 +70,6 @@ class Queen(Piece):
             ))
         output.append(moves_nw)
         return output
+
+    def getID(self):
+        return 'Q'

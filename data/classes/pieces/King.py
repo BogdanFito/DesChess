@@ -85,3 +85,6 @@ class King(Piece):
                 board.get_square_from_pos((self.x + 2, self.y))
             )
         return output
+
+    def getID(self):
+        return 'K'

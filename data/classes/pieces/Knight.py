@@ -37,3 +37,6 @@ class Knight(Piece):
                     )
                 ])
         return output
+
+    def getID(self):
+        return 'N'

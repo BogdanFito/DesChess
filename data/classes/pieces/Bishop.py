@@ -46,3 +46,6 @@ class Bishop(Piece):
             ))
         output.append(moves_nw)
         return output
+
+    def getID(self):
+        return 'B'

@@ -39,3 +39,6 @@ class Rook(Piece):
             ))
         output.append(moves_west)
         return output
+
+    def getID(self):
+        return 'R'

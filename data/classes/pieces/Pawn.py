@@ -75,3 +75,6 @@ class Pawn(Piece):
         moves = self.get_moves(board)
         # return the diagonal moves
         return [i for i in moves if i.x != self.x]
+
+    def getID(self):
+        return ''
